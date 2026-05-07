@@ -50,11 +50,11 @@ const ClassView = () => {
         </div>
       </div>
       <hr />
-      <div className="list-group shadow-sm rounded-4 overflow-hidden">
+      <div className="list-group list-group-flush">
         {sortedStudents.map((student) => (
           <div
             key={student._id}
-            className="list-group-item list-group-item-action border-0 py-3"
+            className="list-group-item list-group-item-action border-0 py-3 student-item"
           >
             {student.name} - Age: {student.age} - {student.gender} - Marks:{" "}
             {student.marks} - Attendance:

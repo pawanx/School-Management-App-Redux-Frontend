@@ -61,8 +61,8 @@ const TeachersView = () => {
       <div>
         <h2>Teachers List</h2>
         {/* Teacher Count */}
-        <div className="list-group shadow-sm rounded-4 overflow-hidden mb-4">
-          <div className="list-group-item bg-success text-white py-3 border-0">
+        <div className="list-group shadow-sm rounded-2 overflow-hidden mb-4">
+          <div className="list-group-item bg-danger text-white py-3 border-0">
             <div className="d-flex justify-content-between align-items-center">
               <h5 className="mb-0 fw-semibold">Teacher Directory</h5>
 

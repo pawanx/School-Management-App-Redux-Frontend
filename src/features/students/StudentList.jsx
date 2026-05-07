@@ -5,7 +5,7 @@ const StudentList = ({ students }) => {
     <div>
       <h2 className="my-3">Student List</h2>
       {students.length === 0 && <div>No student data available.</div>}
-      <div className="list-group shadow-sm rounded-4 overflow-hidden">
+      <div className="list-group shadow-sm rounded-2 overflow-hidden">
         {students.map((student) => (
           <div
             key={student._id}

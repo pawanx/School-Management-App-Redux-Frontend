@@ -58,7 +58,7 @@ const StudentView = () => {
       )}
 
       {/* Student count */}
-      <div className="list-group mb-4 shadow-sm rounded-4 overflow-hidden">
+      <div className="list-group mb-4 shadow-sm rounded-2 overflow-hidden">
         <div className="list-group-item bg-primary text-white py-3">
           <div className="d-flex justify-content-between align-items-center">
             <h5 className="mb-0 fw-semibold">Student Directory</h5>

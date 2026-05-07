@@ -64,7 +64,7 @@ const SchoolView = () => {
       <hr />
 
       {/* Student Statistics */}
-      <div className="list-group shadow-sm rounded-4 overflow-hidden mb-4">
+      <div className="list-group shadow-lg rounded-2 overflow-hidden mb-4">
         <div className="list-group-item bg-primary text-white py-3 border-0">
           <h5 className="mb-0 fw-semibold">Student Statistics</h5>
         </div>
@@ -107,8 +107,8 @@ const SchoolView = () => {
       </div>
 
       {/* Teacher Statistics */}
-      <div className="list-group shadow-sm rounded-4 overflow-hidden">
-        <div className="list-group-item bg-success text-white py-3 border-0">
+      <div className="list-group shadow-lg rounded-2 overflow-hidden mb-4">
+        <div className="list-group-item bg-danger text-white py-3 border-0">
           <h5 className="mb-0 fw-semibold">Teacher Statistics</h5>
         </div>
 

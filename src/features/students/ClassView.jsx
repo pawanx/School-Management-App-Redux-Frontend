@@ -50,18 +50,28 @@ const ClassView = () => {
         </div>
       </div>
       <hr />
-      <div className="list-group list-group-flush">
-        {sortedStudents.map((student) => (
-          <div
-            key={student._id}
-            className="list-group-item list-group-item-action border-0 py-3 student-item"
-          >
-            {student.name} - Age: {student.age} - {student.gender} - Marks:{" "}
-            {student.marks} - Attendance:
-            {student.attendance}
-          </div>
-        ))}
+     <div className="list-group list-group-flush">
+  {sortedStudents.length > 0 ? (
+    sortedStudents.map((student) => (
+      <div
+        key={student._id}
+        className="list-group-item list-group-item-action border-0 py-3 student-item"
+      >
+        {student.name} - Age: {student.age} - {student.gender} - Marks:{" "}
+        {student.marks} - Attendance:
+        {student.attendance}
       </div>
+    ))
+  ) : (
+    <div className="text-center py-5">
+      <h5 className="fw-bold">No Students Found</h5>
+
+      <p className="text-muted mb-0">
+        No students available for selected filter.
+      </p>
+    </div>
+  )}
+</div>
     </div>
   );
 };

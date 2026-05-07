@@ -1,0 +1,16 @@
+body {
+  min-height: 100vh;
+  margin: 0;
+
+  background-color: #f4f7fb;
+
+  background-image: radial-gradient(
+    circle at 1px 1px,
+    rgba(180, 196, 220, 0.5) 1.2px,
+    transparent 0
+  );
+
+  background-size: 24px 24px;
+
+  font-family: sans-serif;
+}

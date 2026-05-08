@@ -90,4 +90,4 @@ src/
 ```
 
 # Live Demo
-[View Live Project]([your-vercel-link](https://school-management-app-redux-fronten.vercel.app/))
+[View Live Project](https://school-management-app-redux-fronten.vercel.app)

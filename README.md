@@ -1,16 +1,93 @@
-# React + Vite
+# School Management App using Redux toolkit – Frontend
+> A modern School Management frontend application built using React, Redux Toolkit, React Router, Bootstrap, and Axios. This application helps manage students, teachers, classes, school statistics, and dashboard analytics through a clean and responsive interface.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+---
 
-Currently, two official plugins are available:
+# Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Dashboard
+- Overview cards for :
+  - Total students.
+  - Total teachers.
+  - School statistics.
+- Live date and time display
+- Responsive dashboard
 
-## React Compiler
+# Student View
+- View all students
+- Add new students
+- Update student details
+- Delete students
+- Filter students by gender
+- Sort students by different fields
+- Student detail page
+- Class-wise student view
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Teacher View
+- View all teachers
+- Add new teachers
+- Update teacher details
+- Delete teachers
 
-## Expanding the ESLint configuration
+## School View
+- School analytics and statistics
+- Top student and teacher tracking
+- Aggregated data using Redux selectors
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Routing
+- Dynamic routing with React Router
+- Protected and structured page navigation
+- Nested routing support
+
+## State Management
+- Centralized state management using Redux Toolkit
+- Async API handling using createAsyncThunk
+- Efficient state updates with slices
+
+## UI/UX
+- Bootstrap-based responsive design
+- Dark mode support
+- Interactive cards
+- Reusable components
+
+---
+
+# Tech Stack
+
+## Frontend
+- React
+- Redux Toolkit
+- React Router DOM
+- Bootstrap
+- Axios
+
+## Backend (Connected API)
+- Node.js
+- Express.js
+- MongoDB
+- Mongoose
+
+# Folder Structure
+
+```bash
+src/
+│
+├── app/
+│   └── store.js
+│
+├── components/
+│
+├── features/
+│   ├── students/
+│   ├── teachers/
+│   ├── school/
+│
+├── pages/dashboard
+│
+├── App.jsx
+├── main.jsx
+└── index.css
+```
+
+# Live Demo
+[View Live Project]([your-vercel-link](https://school-management-app-redux-fronten.vercel.app/))

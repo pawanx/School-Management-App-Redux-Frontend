@@ -49,7 +49,7 @@ function App() {
     >
       <BrowserRouter>
         <nav
-          className="navbar navbar-expand-lg shadow-lg py-3"
+          className="navbar navbar-expand-lg shadow-lg py-3 sticky-top"
           style={{
             background:
               mode === "dark"
